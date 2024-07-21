@@ -1,5 +1,6 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -164,6 +165,7 @@ const SingleBlogPage = async () => {
             </div>
           </div>
         </div>
+        <FAQ />
       </section>
     </>
   );

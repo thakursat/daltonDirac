@@ -14,27 +14,25 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
-  // other metadata
+  title: "Dalton Dirac",
+  description: "Learn tech here!",
 };
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
-      <Feature />
-      <About />
-      <FeaturesTab />
       <FunFact />
-      <Integration />
-      <CTA />
-      <FAQ />
-      <Testimonial />
-      <Pricing />
-      <Contact />
       <Blog />
+      <CTA />
+      <About />
+      {/* <Brands /> */}
+      {/* <Feature /> */}
+      {/* <FeaturesTab /> */}
+      {/* <Integration /> */}
+      <Testimonial />
+      {/* <Pricing /> */}
+      
     </main>
   );
 }
