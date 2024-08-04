@@ -49,21 +49,23 @@ export default function LanguageProgram(){
                     </form>
                   </div>
     
-                  <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
-                    <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
+                  <div className=" animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
+                    <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white p-9">
                       Categories
                     </h4>
     
-                    <ul>{course [courseCategory][courseName]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
+                    <ul
+                    style={{ height: "500px", overflowY: "auto" }}>{course [courseCategory][courseName]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
                     
                     </ul>
                   </div>
     
-                  <RelatedPost />
+                 
                 </div>
     
                 <div className="lg:w-2/3">
-                  <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
+                  <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10" style={{ height: "700px", overflowY: "auto" }}
+                    >
                     <div className="mb-10 w-full overflow-hidden ">
                       <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                         <Image
@@ -79,57 +81,23 @@ export default function LanguageProgram(){
                     {course [courseCategory][courseName]["post"]["title"]}
                     </h2>
     
-                    <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
-                      <li>
-                        <span className="text-black dark:text-white">Author: </span>{" "}
-                        {course [courseCategory][courseName]["post"]["author"]}
-                      </li>
-                      <li>
-                        <span className="text-black dark:text-white">
-                        {course [courseCategory][courseName]["post"]["publishedOn"]}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span className="text-black dark:text-white">
-                          Category:
-                        </span>
-                        {course [courseCategory][courseName]["post"]["category"]}
-                      </li>
-                    </ul>
+                
     
                     <div className="blog-details">
                         {course[courseCategory][courseName]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
-                      
-    
-                      
-    
-                      <div className="flex flex-wrap gap-5">
-                      {course [courseCategory][courseName]["post"]["images"].map((images:string, index:number) =>( 
-                         <Image
-                         key={index}
-                          src={images}
-                          width={350}
-                          height={200}
-                          alt="image"
-                        />))}
-                 
-                      </div>
-    
-                      
-                   
-                      
+          
                       <h2>{course[courseCategory][courseName]["post"]["subheading"]}</h2>
                       <p>
                       {course[courseCategory][courseName]["post"]["subContent"]}
                       </p>
                     </div>
     
-                    <SharePost />
+                   
                   </div>
                 </div>
               </div>
             </div>
-            <FAQ />
+            
           </section>
         </>
       );
