@@ -157,106 +157,6 @@
                   "subheading": "Nunc elementum elit viverra, tempus quam non",
                   "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
                 }
-            }
-    },
-    "erpProgram": {
-      "metadata": {
-              "title":"ERP",
-                    "description":"This is Blog details page for Solid Pro",
-    "mainImage": "/images/blog/blog-02.png"
-            },
-      "sapMM":{
-                "metadata":{
-                    "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
-                },
-                "mainImage": "/images/blog/blog-01.png",
-                "searchPlaceholder": "Search Here...",
-                "categories": [
-                  "Blog",
-                  "Events",
-                  "Grids",
-                  "News",
-                  "Rounded"
-                ],
-                "post": {
-                  "title": "Kobe Steel ",
-                  "author": "John Doe",
-                  "publishedOn": "July 30, 2023",
-                  "category": "Events",
-                  "content": [
-                    "Lorem ipsum ",
-                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
-                  ],
-                  "images": [
-                    "/images/blog/blog-01.png",
-                    "/images/blog/blog-02.png"
-                  ],
-                  "subheading": "Nunc elementum elit viverra, tempus quam non",
-                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
-                }
-            },
-            "sapSD":{
-                "metadata":{
-                    "title":"French Language Certification Course - Job Guarantee Program",
-                    "description":"This is Blog details page for Solid Pro"
-                },
-                "mainImage": "/images/blog/blog-01.png",
-                "searchPlaceholder": "Search Here...",
-                "categories": [
-                  "Blog",
-                  "Events",
-                  "Grids",
-                  "News",
-                  "Rounded"
-                ],
-                "post": {
-                  "title": "Kobe Steel plant that supplied",
-                  "author": "John Doe",
-                  "publishedOn": "July 30, 2023",
-                  "category": "Events",
-                  "content": [
-                    "French dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum.",
-                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
-                  ],
-                  "images": [
-                    "/images/blog/blog-01.png",
-                    "/images/blog/blog-02.png"
-                  ],
-                  "subheading": "Nunc elementum elit viverra, tempus quam non",
-                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
-                }
-            },
-            "sapFICO":{
-                "metadata":{
-                    "title":"French Language Certification Course - Job Guarantee Program",
-                    "description":"This is Blog details page for Solid Pro"
-                },
-                "mainImage": "/images/blog/blog-01.png",
-                "searchPlaceholder": "Search Here...",
-                "categories": [
-                  "Blog",
-                  "Events",
-                  "Grids",
-                  "News",
-                  "Rounded"
-                ],
-                "post": {
-                  "title": "Kobe Steel plant that supplied",
-                  "author": "John Doe",
-                  "publishedOn": "July 30, 2023",
-                  "category": "Events",
-                  "content": [
-                    "French dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum.",
-                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
-                  ],
-                  "images": [
-                    "/images/blog/blog-01.png",
-                    "/images/blog/blog-02.png"
-                  ],
-                  "subheading": "Nunc elementum elit viverra, tempus quam non",
-                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
-                }
             },
             "japanese":{
                 "metadata":{
@@ -288,6 +188,103 @@
                   "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
                 }
             }
-
+    },
+    "erpProgram": {
+      "metadata": {
+              "title":"ERP",
+                    "description":"This is Blog details page for Solid Pro",
+    "mainImage": "/images/blog/blog-02.png"
+            },
+      "sapMM":{
+                "metadata":{
+                    "title":"Blog Details Page - Solid SaaS Boilerplate",
+                    "description":"This is Blog details page for Solid Pro"
+                },
+                "mainImage": "/images/blog/blog-01.png",
+                "searchPlaceholder": "Search Here...",
+                "categories": [
+                  "Blog",
+                  "Events",
+                  "Grids",
+                  "News",
+                  "Rounded"
+                ],
+                "post": {
+                  "title": "Kobe Steel plant that supp ",
+                  "author": "John Doe",
+                  "publishedOn": "July 30, 2023",
+                  "category": "Events",
+                  "content": [
+                    "Lorem ipsum ",
+                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
+                  ],
+                  "images": [
+                    "/images/blog/blog-01.png",
+                    "/images/blog/blog-02.png"
+                  ],
+                  "subheading": "Nunc elementum elit viverra, tempus quam non",
+                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
+                }
+            },
+            "sapSD":{
+                "metadata":{
+                    "title":"Blog Details Page - Solid SaaS Boilerplate",
+                    "description":"This is Blog details page for Solid Pro"
+                },
+                "searchPlaceholder": "Search Here...",
+                "categories": [
+                  "Blog",
+                  "Events",
+                  "Grids",
+                  "News",
+                  "Rounded"
+                ],
+                "post": {
+                  "title": "Kobe Steel plant that supplied",
+                  "author": "John Doe",
+                  "publishedOn": "July 30, 2023",
+                  "category": "Events",
+                  "content": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum.",
+                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
+                  ],
+                  "images": [
+                    "/images/blog/blog-01.png",
+                    "/images/blog/blog-02.png"
+                  ],
+                  "subheading": "Nunc elementum elit viverra, tempus quam non",
+                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
+                }
+            },
+            "sapFICO":{
+                "metadata":{
+                    "title":"Blog Details Page - Solid SaaS Boilerplate",
+                    "description":"This is Blog details page for Solid Pro"
+                },
+                "searchPlaceholder": "Search Here...",
+                "categories": [
+                  "Blog",
+                  "Events",
+                  "Grids",
+                  "News",
+                  "Rounded"
+                ],
+                "post": {
+                  "title": "Kobe Steel plant that supplied",
+                  "author": "John Doe",
+                  "publishedOn": "July 30, 2023",
+                  "category": "Events",
+                  "content": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum.",
+                    "Aenean augue ex, condimentum vel metus vitae, aliquam porta elit. Quisque non metus ac orci mollis posuere. Mauris vel ipsum a diam interdum ultricies sed vitae neque. Nulla porttitor quam vitae pulvinar placerat. Nulla fringilla elit sit amet justo feugiat sodales. Morbi eleifend, enim non eleifend laoreet, odio libero lobortis lectus, non porttitor sem urna sit amet metus. In sollicitudin quam est, pellentesque consectetur felis fermentum vitae."
+                  ],
+                  "images": [
+                    "/images/blog/blog-01.png",
+                    "/images/blog/blog-02.png"
+                  ],
+                  "subheading": "Nunc elementum elit viverra, tempus quam non",
+                  "subContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus quam sed condimentum. Curabitur vel turpis in dolor volutpat imperdiet in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra, tempus quam non, interdum ipsum."
+                }
+            }
     }
 }

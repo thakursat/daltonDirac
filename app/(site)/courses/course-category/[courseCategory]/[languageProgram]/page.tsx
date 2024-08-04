@@ -1,11 +1,18 @@
+'use client'
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
 import Image from "next/image";
 import course from "../../../../../../public/language.json";
+import { useParams } from "next/navigation";
 
-export default function LanguageProgram({params}: any){
+export default function LanguageProgram(){
+  const params = useParams();
+
+  const courseCategory = Array.isArray(params.courseCategory) ? params.courseCategory[0] : params.courseCategory ?? '';
+  const courseName = Array.isArray(params.languageProgram) ? params.languageProgram[0] : params.languageProgram ?? '';
+
     return (
         <>
           <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
@@ -48,7 +55,7 @@ export default function LanguageProgram({params}: any){
                       Categories
                     </h4>
     
-                    <ul>{course ["languageProgram"][params.languageProgram]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
+                    <ul>{course [courseCategory][courseName]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
                     
                     </ul>
                   </div>
@@ -70,35 +77,35 @@ export default function LanguageProgram({params}: any){
                     </div>
     
                     <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                    {course ["languageProgram"][params.languageProgram]["post"]["title"]}
+                    {course [courseCategory][courseName]["post"]["title"]}
                     </h2>
     
                     <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                       <li>
                         <span className="text-black dark:text-white">Author: </span>{" "}
-                        {course ["languageProgram"][params.languageProgram]["post"]["author"]}
+                        {course [courseCategory][courseName]["post"]["author"]}
                       </li>
                       <li>
                         <span className="text-black dark:text-white">
-                        {course ["languageProgram"][params.languageProgram]["post"]["publishedOn"]}
+                        {course [courseCategory][courseName]["post"]["publishedOn"]}
                         </span>{" "}
                       </li>
                       <li>
                         <span className="text-black dark:text-white">
                           Category:
                         </span>
-                        {course ["languageProgram"][params.languageProgram]["post"]["category"]}
+                        {course [courseCategory][courseName]["post"]["category"]}
                       </li>
                     </ul>
     
                     <div className="blog-details">
-                        {course["languageProgram"][params.languageProgram]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
+                        {course[courseCategory][courseName]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
                       
     
                       
     
                       <div className="flex flex-wrap gap-5">
-                      {course ["languageProgram"][params.languageProgram]["post"]["images"].map((images:string, index:number) =>( 
+                      {course [courseCategory][courseName]["post"]["images"].map((images:string, index:number) =>( 
                          <Image
                          key={index}
                           src={images}
@@ -112,9 +119,9 @@ export default function LanguageProgram({params}: any){
                       
                    
                       
-                      <h2>{course["languageProgram"][params.languageProgram]["post"]["subheading"]}</h2>
+                      <h2>{course[courseCategory][courseName]["post"]["subheading"]}</h2>
                       <p>
-                      {course["languageProgram"][params.languageProgram]["post"]["subContent"]}
+                      {course[courseCategory][courseName]["post"]["subContent"]}
                       </p>
                     </div>
     
