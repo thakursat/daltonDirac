@@ -56,7 +56,7 @@ export default function LanguageProgram(){
                     </h4>
     
                     <ul
-                    style={{ height: "500px", overflowY: "auto" }}>{course [courseCategory][courseName]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
+                    style={{ height: "200px", overflowY: "auto" }}>{course [courseCategory][courseName]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
                     
                     </ul>
                   </div>
@@ -86,11 +86,8 @@ export default function LanguageProgram(){
     
                     <div className="blog-details">
                         {course[courseCategory][courseName]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
+                        {course[courseCategory][courseName]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
           
-                      <h2>{course[courseCategory][courseName]["post"]["subheading"]}</h2>
-                      <p>
-                      {course[courseCategory][courseName]["post"]["subContent"]}
-                      </p>
                     </div>
     
                    
