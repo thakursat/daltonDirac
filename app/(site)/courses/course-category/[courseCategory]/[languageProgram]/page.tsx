@@ -48,22 +48,8 @@ export default function LanguageProgram({params}: any){
                       Categories
                     </h4>
     
-                    <ul>
-                      <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                        <a href="#">Blog</a>
-                      </li>
-                      <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                        <a href="#">Events</a>
-                      </li>
-                      <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                        <a href="#">Grids</a>
-                      </li>
-                      <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                        <a href="#">News</a>
-                      </li>
-                      <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                        <a href="#">Rounded</a>
-                      </li>
+                    <ul>{course ["languageProgram"][params.languageProgram]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
+                    
                     </ul>
                   </div>
     
@@ -84,24 +70,24 @@ export default function LanguageProgram({params}: any){
                     </div>
     
                     <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                      Kobe Steel plant that supplied
+                    {course ["languageProgram"][params.languageProgram]["post"]["title"]}
                     </h2>
     
                     <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                       <li>
                         <span className="text-black dark:text-white">Author: </span>{" "}
-                        Jhon Doe
+                        {course ["languageProgram"][params.languageProgram]["post"]["author"]}
                       </li>
                       <li>
                         <span className="text-black dark:text-white">
-                          Published On: July 30, 2023
+                        {course ["languageProgram"][params.languageProgram]["post"]["publishedOn"]}
                         </span>{" "}
                       </li>
                       <li>
                         <span className="text-black dark:text-white">
                           Category:
                         </span>
-                        Events
+                        {course ["languageProgram"][params.languageProgram]["post"]["category"]}
                       </li>
                     </ul>
     
@@ -123,17 +109,12 @@ export default function LanguageProgram({params}: any){
                  
                       </div>
     
-                      <h3 className="pt-8">
-                        Nunc elementum elit viverra, tempus quam non
-                      </h3>
-    
+                      
+                   
+                      
+                      <h2>{course["languageProgram"][params.languageProgram]["post"]["subheading"]}</h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                        leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                        vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                        volutpat nulla. Nunc elementum elit viverra, tempus quam
-                        non, interdum ipsum.
+                      {course["languageProgram"][params.languageProgram]["post"]["subContent"]}
                       </p>
                     </div>
     
