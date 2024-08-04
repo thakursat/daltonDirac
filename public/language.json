@@ -14,11 +14,10 @@
                 "mainImage": "/images/blog/blog-01.png",
                 "searchPlaceholder": "Search Here...",
                 "categories": [
-                  "Blog",
-                  "Events",
-                  "Grids",
-                  "News",
-                  "Rounded"
+                  "About the course",
+                  "Curriculum",
+                  "Benefits",
+                  "FAQ"
                 ],
                 "post": {
                   "title": "Kobe Steel plant that supp ",
