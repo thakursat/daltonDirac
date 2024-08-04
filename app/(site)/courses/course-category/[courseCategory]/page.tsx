@@ -3,15 +3,16 @@ import Image from 'next/image';
 import React from 'react';
 import courses from "../../../../../public/language.json";
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { useParams, usePathname, useRouter } from 'next/navigation';
 
 interface CourseCardProps {
   courseName: string;
+  courseCategory: string;
   title: string;
-    description: string;
+  description: string;
 }
 
-const CourseCard: React.FC<CourseCardProps> = ({title, description, courseName}) => (
+const CourseCard: React.FC<CourseCardProps> = ({title, description, courseName, courseCategory}) => (
   <div className="flex flex-col h-[23rem] bg-white rounded-lg shadow-md overflow-hidden">
     <div className='w-full h-full relative'>
     <Image
@@ -25,7 +26,7 @@ const CourseCard: React.FC<CourseCardProps> = ({title, description, courseName})
     <div className="p-4 flex flex-col flex-grow">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-gray-600 mb-4 flex-grow">{description}</p>
-      <Link href={`../../courses/${courseName}`}>
+      <Link href={`${courseCategory}/${courseName}`}>
       <button className="flex items-center justify-center bg-primary text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">
         View More
       </button>
@@ -34,11 +35,11 @@ const CourseCard: React.FC<CourseCardProps> = ({title, description, courseName})
   </div>
 );
 
-export default function LanguageProgram({params}: any){
+export default function LanguageProgram(){
 
-  const router = useRouter();
-  const courseCategory = router.asPath;
-  console.log('path', courseCategory);
+  const params = useParams();
+
+  const courseCategory = Array.isArray(params.courseCategory) ? params.courseCategory[0] : params.courseCategory ?? '';
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -67,10 +68,11 @@ export default function LanguageProgram({params}: any){
       <section className="container mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Courses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.keys(courses[params.courseCategory]).map((course, index) => {
+          {/* {courseCategory} {LanguageProgram} */}
+          {Object.keys(courses[courseCategory]).map((course, index) => {
             if(course !== 'metadata')
             return (
-            <CourseCard key={index} title={courses[params.courseCategory][course].metadata.title} description={courses[params.courseCategory][course].metadata.description} courseName={course} />
+            <CourseCard key={index} courseCategory={courseCategory} title={courses[courseCategory][course].metadata.title} description={courses[courseCategory][course].metadata.description} courseName={course} />
           )
           })}
         </div>

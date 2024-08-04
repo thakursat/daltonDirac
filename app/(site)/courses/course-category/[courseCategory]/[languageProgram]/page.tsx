@@ -3,7 +3,7 @@ import SharePost from "@/components/Blog/SharePost";
 import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
 import Image from "next/image";
-import course from "../../../../public/language.json";
+import course from "../../../../../../public/language.json";
 
 export default function LanguageProgram({params}: any){
     return (
