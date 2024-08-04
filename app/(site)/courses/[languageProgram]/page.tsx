@@ -43,21 +43,29 @@ export default function LanguageProgram({params}: any){
                     </form>
                   </div>
     
-                  <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
-                    <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
+                  <div className=" animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
+                    <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white p-9">
                       Categories
                     </h4>
     
-                    <ul>{course ["languageProgram"][params.languageProgram]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
+                    <ul style={{ 
+                     display: 'flex', 
+                     flexDirection: 'column', 
+                     alignItems: 'center', 
+                     listStyleType: 'none', 
+                     padding: 0 ,
+                     gap:'10px'
+                    }}>{course ["languageProgram"][params.languageProgram]["categories"].map((categories:string)=>(<li ><a href="#">{categories}</a></li>))}
                     
                     </ul>
                   </div>
     
-                  <RelatedPost />
+                 
                 </div>
     
                 <div className="lg:w-2/3">
-                  <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
+                  <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10" style={{ height: "700px", overflowY: "auto" }}
+                    >
                     <div className="mb-10 w-full overflow-hidden ">
                       <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                         <Image
@@ -73,7 +81,7 @@ export default function LanguageProgram({params}: any){
                     {course ["languageProgram"][params.languageProgram]["post"]["title"]}
                     </h2>
     
-                    <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
+                    {/* <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                       <li>
                         <span className="text-black dark:text-white">Author: </span>{" "}
                         {course ["languageProgram"][params.languageProgram]["post"]["author"]}
@@ -84,12 +92,12 @@ export default function LanguageProgram({params}: any){
                         </span>{" "}
                       </li>
                       <li>
-                        <span className="text-black dark:text-white">
+                        <span className="text-black dark:text-white p-2">
                           Category:
                         </span>
                         {course ["languageProgram"][params.languageProgram]["post"]["category"]}
                       </li>
-                    </ul>
+                    </ul> */}
     
                     <div className="blog-details">
                         {course["languageProgram"][params.languageProgram]["post"]["content"].map((content:string, index:number) =>(<p key={index}>{content}</p>))}
@@ -97,7 +105,7 @@ export default function LanguageProgram({params}: any){
     
                       
     
-                      <div className="flex flex-wrap gap-5">
+                      {/* <div className="flex flex-wrap gap-5">
                       {course ["languageProgram"][params.languageProgram]["post"]["images"].map((images:string, index:number) =>( 
                          <Image
                          key={index}
@@ -107,23 +115,21 @@ export default function LanguageProgram({params}: any){
                           alt="image"
                         />))}
                  
-                      </div>
+                      </div> */}
     
-                      
-                   
-                      
+{/*    
                       <h2>{course["languageProgram"][params.languageProgram]["post"]["subheading"]}</h2>
                       <p>
                       {course["languageProgram"][params.languageProgram]["post"]["subContent"]}
-                      </p>
+                      </p> */}
                     </div>
     
-                    <SharePost />
+                   
                   </div>
                 </div>
               </div>
             </div>
-            <FAQ />
+            {/* <FAQ /> */}
           </section>
         </>
       );
