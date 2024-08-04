@@ -1,9 +1,7 @@
 "use client";
-import { Blog } from "@/types/blog";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import FAQ from "../FAQ";
 
 const BlogItem = ({ mainImage, metadata, categoryName }: { mainImage: string, metadata: any, categoryName: string }) => {
 

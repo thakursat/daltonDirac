@@ -1,6 +1,4 @@
-import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
-import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
 import courses from "../../../public/language.json";
 

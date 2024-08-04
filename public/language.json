@@ -9,7 +9,8 @@
             "english":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "mainImage": "/images/blog/blog-01.png",
                 "searchPlaceholder": "Search Here...",
@@ -40,7 +41,8 @@
             "german":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [
@@ -70,7 +72,8 @@
             "spanish":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [
@@ -100,7 +103,8 @@
             "mandarin":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [
@@ -130,7 +134,8 @@
             "french":{
                 "metadata":{
                     "title":"French Language Certification Course - Job Guarantee Program",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "mainImage": "/images/blog/blog-01.png",
                 "searchPlaceholder": "Search Here...",
@@ -161,7 +166,8 @@
             "japanese":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [
@@ -198,7 +204,8 @@
       "sapMM":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "mainImage": "/images/blog/blog-01.png",
                 "searchPlaceholder": "Search Here...",
@@ -229,7 +236,8 @@
             "sapSD":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [
@@ -259,7 +267,8 @@
             "sapFICO":{
                 "metadata":{
                     "title":"Blog Details Page - Solid SaaS Boilerplate",
-                    "description":"This is Blog details page for Solid Pro"
+                    "description":"This is Blog details page for Solid Pro",
+                    "oneLineDescription": "Hello There"
                 },
                 "searchPlaceholder": "Search Here...",
                 "categories": [

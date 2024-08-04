@@ -2,10 +2,9 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import FAQ from "@/components/FAQ";
-import { Metadata } from "next";
 import Image from "next/image";
-import course from "../../../../../../public/language.json";
 import { useParams } from "next/navigation";
+import course from "../../../../../../public/language.json";
 
 export default function LanguageProgram(){
   const params = useParams();
